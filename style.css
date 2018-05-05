@@ -1,0 +1,28 @@
+/* Theme Name: zer0 */
+/* Typography */
+body, input, td, select { font-family: sans-serif; font-size: 20px }
+h1, h2, h3, h4 { margin-top: 0 }
+
+/* Basics */
+body{ background: #fafaf8 }
+a{ color: #00e; text-decoration: none }
+
+/* Page elements */
+.container{ max-width: 640px; margin: 0 auto 1em; -ms-word-wrap: break-word; word-wrap: break-word; }
+#site-header { padding: 10px 30px; border-bottom: 3px solid #eee }
+#site-header a{ color: #999 }
+#site-info{ padding: 50px 10px 0; text-align: center; color: #ddd }
+.sidebar{ background: #eee; padding: 10px }
+.sidebar .widget{ margin-bottom: 10px }
+nav#nav-main { border-top: 2px solid #eee; padding: 10px; }
+span.nav-link { float:left }
+span.nav-next { float:right }
+
+/* WP Core & fixes */
+.e-content, nav#nav-main{ overflow: auto; } .e-content::after, nav#nav-main::after{ content: ""; clear: both; display: table }
+.e-content img{ max-width: 100%; height: auto }
+.aligncenter{float:none;margin:1.64em auto}
+.alignleft{float:left;margin-right:1.64em}
+.alignright{float:right;margin-left:1.64em}
+.wp-caption{margin-bottom:1.64em;max-width:100%}
+p.wp-caption-text{text-align:center;margin:.4em 0 0;font-size:.8em}
